@@ -1,0 +1,70 @@
+#topnav
+{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+				
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+	font-family: vermin;
+	
+	z-index: 10;	/*highest z-index auf der Seite, topnavbar ist überall sichtbar*/
+	background-color: #3f3f3f;
+	
+	opacity: 0.6;
+	transition: opacity .25s ease-out;
+}
+
+#topnav:hover{
+	opacity: 0.95;
+}
+
+#topnav_ul{
+
+	padding: 0;
+	margin: 0;
+	background-color: #3f3f3f;
+	overflow: hidden;
+}
+
+.topnav_li
+{
+	
+	list-style-type: none;
+	display: inline;
+	float: left;
+	margin-left: 20px;
+	
+}
+
+.topnav_li_a_div{
+
+	text-align: center;
+	padding: 15px;
+	color: #279798;
+
+}
+
+.topnav_li a:link
+{
+	text-decoration: none;	
+}
+
+.topnav_li a:visited
+{
+	color: white;
+	text-decoration: none;	
+}
+
+.topnav_li a:hover
+{
+	text-decoration: none;		
+}
+
+.topnav_li a:active
+{
+	text-decoration: none;	
+}

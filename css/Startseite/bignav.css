@@ -1,0 +1,73 @@
+#bignav_ul{
+
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	line-height: 0.8;
+}
+
+.bignav_li
+{
+	
+	list-style-type: none;
+	display: inline;
+	float: left;
+	margin: 20px;
+	
+}
+
+.bignav_li_a_div{
+
+	text-align: center;
+	padding: 15px;
+	color: #279798;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background: #000000;
+	font-size: 20px;
+	font-family: vermin;
+}
+
+
+.bignav_li a:link
+{
+	text-decoration: none;	
+}
+
+.bignav_li a:visited
+{
+	color: white;
+	text-decoration: none;	
+}
+
+.bignav_li a:hover
+{
+	text-decoration: none;		
+}
+
+.bignav_li a:active
+{
+	text-decoration: none;	
+}
+
+#bignav_oc_symbol{
+
+	font-size: 150px;
+	line-height: 0.1;
+}
+
+#bignav_student_symbol{
+
+	font-size: 120px;
+	font-family: Arial;
+	line-height: 0.1;
+	
+}
+
+#bignav_person_symbol{
+
+	font-size: 120px;
+	font-family: Arial;
+	line-height: 1.1;
+}
