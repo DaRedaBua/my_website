@@ -1,0 +1,148 @@
+body, html 
+{
+  height: 100%;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+
+.content{
+
+	max-width: 680px;
+	margin: auto;
+	
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+}
+.bgimg-1 {
+	background-image: url(../../ressources/background.jpg);
+	min-height: 100%;
+}
+
+.bgimg-2 {
+	background-image: url(../../ressources/nachhilfe/nachhilfe_windows.png);
+	min-height: 550px;
+	background-size: cover;
+}
+
+.bgimg-3 {
+	background-image: url(../../ressources/nachhilfe/msoffice.png);
+	min-height: 320px;
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+	.bgimg-1, .bgimg-2, .bgimg-3 {
+		background-attachment: scroll;
+	}
+}
+
+/*--Titel ---Computer-Nachhilfe ---*/
+
+#span_inpic1{
+	font-family: Courier New;
+	font-size: 70px;
+	color: white;
+	padding: 10px 20px;
+	border: 3px solid white;
+}
+
+/*---Windows---*/
+
+#h_windows{
+
+	text-align: center;
+	
+}
+
+#conbox1{
+
+	text-align: justify;
+	font-family: "Lucida Sans Unicode", "Lucida Grande",sans-serif;
+
+}
+
+#backcon1{
+
+	position: relative;
+	top: 50px;
+	text-align: left;
+	
+}
+
+#win_ul{
+
+	padding: auto;
+	margin: auto;
+	position: relative;
+	max-width: 680px;
+	background-color: black;
+	opacity: 0.8;
+}
+
+#win_ul li{
+
+	color: white;
+	letter-spacing: 1px;
+	font-family: Courier New;
+	line-height: 2;
+	list-style-type: none;
+	
+}
+
+/*---MS Office---*/
+
+.h_msoffice{
+	
+	text-align: center;
+	
+}
+
+#conbox2{
+
+	text-align: justify;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+
+#backcon2{
+	
+	position: relative;
+	text-align: left;
+
+}
+
+#msoffice_ul{
+
+	padding: auto;
+	margin: auto;
+	position: relative;
+	top: 40px;
+	max-width: 680px;
+	background-color: black;
+	opacity: 0.8;
+	
+}
+
+#msoffice_ul li{
+
+	color: white;
+	letter-spacing: 1px;
+	font-family: Courier New;
+	line-height: 2;
+	list-style-type: none;
+	font-size: 20px;
+
+}

@@ -21,12 +21,13 @@
 	text-align: center;
 	padding: 15px;
 	color: #279798;
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
 	background: #000000;
 	font-size: 20px;
 	font-family: vermin;
+	opacity: 0.8;
 }
 
 
@@ -51,23 +52,183 @@
 	text-decoration: none;	
 }
 
-#bignav_oc_symbol{
+.big_button_group{
 
-	font-size: 150px;
-	line-height: 0.1;
-}
-
-#bignav_student_symbol{
-
-	font-size: 120px;
-	font-family: Arial;
-	line-height: 0.1;
+	
 	
 }
 
+
+@media screen and (min-width: 1246px) {
+	
+	.big_button_group{
+	
+		position: relative;
+		top: 0;
+	
+	}
+
+}
+
+@media screen and (min-width: 710px) and  (max-width: 1245px){
+	
+	.big_button_group{
+	
+		position: relative;
+		top: 55px;
+	
+	}
+
+}
+
+@media screen and (min-width: 536px) and  (max-width: 709px){
+	
+	.big_button_group{
+	
+		position: relative;
+		top: 110px;
+	
+	}
+
+}
+
+@media screen and (min-width: 433px) and (max-width: 535px){
+	
+	.big_button_group{
+	
+		position: relative;
+		top: 165px;
+	
+	}
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 432px){
+	
+	.big_button_group{
+	
+		position: relative;
+		top: 220px;
+	
+	}
+
+}
+
+/*-----Computer-Nachhilfe-----*/
+
+#bignav_student_symbol{
+
+	font-size: 200px;
+	font-family: Arial;
+	line-height: 0.2;
+	
+}
+
+#bignav_text_student{
+
+	line-height: 1;
+	position: relative;
+	top: 13px;
+
+}
+
+.bignav_li_a_div:hover > #bignav_text_student{
+	
+	top: -78px;
+	position: relative;
+	font-size: 40px;
+	transition: font-size 0.25s ease-in, top 0.25s linear;
+
+}
+	
+/*---ENDE---Computer-Nachhilfe---*/
+
+/*---Owncloud--------------*/	
+	
+#bignav_oc_symbol{
+
+	font-size: 250px;
+	line-height: 0;
+}
+
+#bignav_text_oc{
+	
+	line-height: 1;
+	position: relative;
+	top: -40px;
+	
+}
+
+.bignav_li_a_div:hover > #bignav_text_oc{
+	
+	top: -130px;
+	position: relative;
+	font-size: 40px;
+	transition: font-size 0.25s ease-in, top 0.25s linear;
+
+}
+
+/*---ENDE--Owncloud---*/
+
+/*----Andere EDV-Dienstleistungen---*/
+
+#bignav_it_symbol{
+
+	font-size: 170px;
+	line-height: 0.4;
+}
+
+#bignav_text_it{
+	
+	line-height: 1;
+	position: relative;
+	top: 20px;
+	
+}
+
+.bignav_li_a_div:hover > #bignav_text_it{
+	
+	top: -60px;
+	position: relative;
+	font-size: 24px;
+	transition: font-size 0.25s ease-in, top 0.25s linear;
+
+}
+
+/*---ENDE--Andere Dienstleistungen----*/
+
+/*---Über mich----*/
+
 #bignav_person_symbol{
 
-	font-size: 120px;
-	font-family: Arial;
+	font-size: 170px;
+	font-family: helvetica;
 	line-height: 1.1;
+}
+
+#bignav_text_me{
+	
+	line-height: 1;
+	position: relative;
+	top: 20px;
+	
+}
+
+.bignav_li_a_div:hover > #bignav_text_me{
+	
+	top: -60px;
+	position: relative;
+	font-size: 37px;
+	transition: font-size 0.25s ease-in, top 0.25s linear;
+
+}
+
+/*---ENDE Über mich----*/
+
+/*sobald die gesamte div fläche berührt wird, wird nur das symbol geändert*/
+.bignav_li_a_div:hover .bignav_span_sym{
+	
+	opacity: 0;
+	transition: opacity .25s ease-out;
+	
 }
